@@ -46,6 +46,12 @@ public class Game {
                 default:
                     System.out.println("ENTER A VALUE BETWEEN [1] AND [4]\n");
             }
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

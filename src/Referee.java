@@ -1,7 +1,5 @@
 public class Referee {
 
-    Computer cpu = new Computer();
-
     public void Judge(String move, String cpuMove){
 
         if (move.equals("Rock") && cpuMove.equals("Rock")){
